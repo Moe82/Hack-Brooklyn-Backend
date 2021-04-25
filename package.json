@@ -1,0 +1,27 @@
+{
+	"name": "hack-brooklyn-backend",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon server.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Moe82/Hack-Brooklyn-Backend.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Moe82/Hack-Brooklyn-Backend/issues"
+	},
+	"homepage": "https://github.com/Moe82/Hack-Brooklyn-Backend#readme",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^8.2.0",
+		"express-fileupload": "^1.2.1",
+		"nodemon": "^2.0.7",
+		"passport": "^0.4.1"
+	}
+}
